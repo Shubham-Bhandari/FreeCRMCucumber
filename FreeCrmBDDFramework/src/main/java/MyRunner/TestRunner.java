@@ -9,7 +9,7 @@ import cucumber.api.junit.Cucumber;
 @RunWith(Cucumber.class)
 @CucumberOptions
 (
-		features = "D://Selenium Projects//FreeCrmBDDFramework//src//main//java//Features//contacts.feature",
+		features = "D:\\Selenium Projects\\GitFreeCRMCucumber\\FreeCRMCucumber\\FreeCrmBDDFramework\\src\\main\\java\\Features\\contacts.feature",
 		glue= {"stepDefinations"},
 		//format= {"pretty","html:test-output", "junit:junit_xml"},
 		plugin= {"pretty","html:target/cucumber", "json:target/cucumber.json"},
